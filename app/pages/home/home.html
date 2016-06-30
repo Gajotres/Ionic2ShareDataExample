@@ -1,9 +1,11 @@
-<ion-navbar *navbar>
-  <ion-title>
-    Home
-  </ion-title>
-</ion-navbar>
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home Page
+    </ion-title>
+  </ion-navbar>
+</ion-header>
 
 <ion-content class="home" padding>
-  <button (click)="changePage()" full>Change Page</button>
+  <button (click)="changePage($event)" full>Change Page</button>
 </ion-content>
